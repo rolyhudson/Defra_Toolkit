@@ -70,7 +70,7 @@
   <ItemGroup>
     <Compile Include="DefraConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Request.cs" />
+    <Compile Include="GetSamplesRequest.cs" />
     <Compile Include="Response.cs" />
   </ItemGroup>
   <ItemGroup />
