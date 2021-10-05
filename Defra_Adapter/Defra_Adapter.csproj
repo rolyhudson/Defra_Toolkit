@@ -35,17 +35,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Adapter_oM">
-      <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\ProgramData\BHoM\Assemblies\Adapter_oM.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Adapter_Engine">
-      <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\ProgramData\BHoM\Assemblies\Adapter_Engine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="BHoM">
-      <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\ProgramData\BHoM\Assemblies\BHoM.dll</HintPath>
       <Private>False</Private>
     </Reference>
@@ -54,27 +51,31 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="BHoM_Engine">
-      <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\ProgramData\BHoM\Assemblies\BHoM_Engine.dll</HintPath>
+      <Private>False</Private>
       <Private>False</Private>
     </Reference>
     <Reference Include="Data_oM">
-      <HintPath>..\..\..\..\..\..\..\ProgramData\BHoM\Assemblies\Data_oM.dll</HintPath>
+      <HintPath>C:\ProgramData\BHoM\Assemblies\Data_oM.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Geospatial_oM">
-      <HintPath>..\..\..\..\..\..\..\ProgramData\BHoM\Assemblies\Geospatial_oM.dll</HintPath>
+      <HintPath>C:\ProgramData\BHoM\Assemblies\Geospatial_oM.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="HTTP_Adapter">
-      <HintPath>..\..\..\..\..\..\..\ProgramData\BHoM\Assemblies\HTTP_Adapter.dll</HintPath>
+      <HintPath>C:\ProgramData\BHoM\Assemblies\HTTP_Adapter.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="HTTP_Engine">
-      <HintPath>..\..\..\..\..\..\..\ProgramData\BHoM\Assemblies\HTTP_Engine.dll</HintPath>
+      <HintPath>C:\ProgramData\BHoM\Assemblies\HTTP_Engine.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="HTTP_oM">
-      <HintPath>..\..\..\..\..\..\..\ProgramData\BHoM\Assemblies\HTTP_oM.dll</HintPath>
+      <HintPath>C:\ProgramData\BHoM\Assemblies\HTTP_oM.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Reflection_Engine">
-      <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\ProgramData\BHoM\Assemblies\Reflection_Engine.dll</HintPath>
       <Private>False</Private>
     </Reference>
