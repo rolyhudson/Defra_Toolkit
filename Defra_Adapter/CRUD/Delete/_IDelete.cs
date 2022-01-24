@@ -38,7 +38,7 @@ namespace BH.Adapter.Defra
         protected override int IDelete(Type type, IEnumerable<object> ids, ActionConfig actionConfig = null)
         {
             //Insert code here to enable deletion of specific types of objects with specific ids
-            Engine.Reflection.Compute.RecordError($"Delete for objects of type {type.Name} is not implemented in {(this as dynamic).GetType().Name}.");
+            Engine.Base.Compute.RecordError($"Delete for objects of type {type.Name} is not implemented in {(this as dynamic).GetType().Name}.");
             return 0;
         }
 

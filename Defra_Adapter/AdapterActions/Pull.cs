@@ -62,7 +62,7 @@ namespace BH.Adapter.Defra
 
                 return new List<object> { defraResponse };
             }
-            Engine.Reflection.Compute.RecordError("This type of request is not supported.");
+            Engine.Base.Compute.RecordError("This type of request is not supported.");
             return new List<object>();
         }
             
